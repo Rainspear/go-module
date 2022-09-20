@@ -28,4 +28,9 @@ SOME ADDITIONAL COMMANDS
 
 
 REFERENCES 
+
 https://go-dev.translate.goog/blog/using-go-modules?_x_tr_sl=en&_x_tr_tl=vi&_x_tr_hl=vi&_x_tr_pto=op,sc
+
+https://stackoverflow.com/questions/61845013/package-xxx-is-not-in-goroot-when-building-a-go-project
+
+https://stackoverflow.com/questions/35480623/how-to-import-local-packages-in-go
