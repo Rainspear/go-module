@@ -29,7 +29,7 @@ SOME ADDITIONAL COMMANDS
 
 REFERENCES 
 
-https://go-dev.translate.goog/blog/using-go-modules?_x_tr_sl=en&_x_tr_tl=vi&_x_tr_hl=vi&_x_tr_pto=op,sc
+https://go.dev/blog/migrating-to-go-modules
 
 https://stackoverflow.com/questions/61845013/package-xxx-is-not-in-goroot-when-building-a-go-project
 
