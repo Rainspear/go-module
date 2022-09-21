@@ -34,3 +34,14 @@ https://go.dev/blog/migrating-to-go-modules
 https://stackoverflow.com/questions/61845013/package-xxx-is-not-in-goroot-when-building-a-go-project
 
 https://stackoverflow.com/questions/35480623/how-to-import-local-packages-in-go
+
+TO SPECIFY FROM A MAIN PACKAGE TO OTHER PACKAGES (LOCALLY AND NOT PUT TO GIT REPO YET). 
+CHANGE DIRECTORY TO MAIN PACKAGE (WHICH INCLIDES main.go).
+POINT REMOTE PATH TO LOCAL PATH BY COMMAND.
+
+**go mod edit -replace example.com/greetings=../greetings**
+**go mod edit -replace example.com/hello=../hello**
+
+THEN RUN THIS COMMAND TO SYNCHRONIZED
+
+**go mod tidy**
